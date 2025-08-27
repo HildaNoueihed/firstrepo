@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My title id here</title> <!--this is the name on the tab (the one on top of the web page)-->
+</head>
+<body> 
+    <h1>
+        Most Important (and Largest) Heading
+    </h1>
+    <p>
+        This is some text. The content within this paragraph element can be as short or as long as needed.
+    </p>
+    <p>
+        This is some text that needs to be split up <br>here, <br>here, and <br>here.
+    </p>
+    <h6>
+        Least Important (and Smallest) Heading
+    </h6>
+    <p>
+        This is another paragraph of text.
+    </p>
+     <a href="https://www.ibm.com">IBM</a> <br> <!-- ti creat a link... the IBM can be any name-->
+    <a href="https://www.ibm.com" target="_blank">no way</a> <!-- Open in a new tab -->
+    
+    <!-- Unordered List -->
+    <ul>
+        <li>This is a bullet point </li>
+        <li>The items in this list have no particular order </li>
+        <li>Each item will appear as a bullet, rather than a number </li>
+    </ul>
+
+    <!-- Ordered List -->
+    <ol>
+        <li>This is an ordered list </li>
+        <li>The items in this list have a particular order </li>
+        <li>Each item will be numbered, starting from 1 </li>
+        <li>This is the fourth point in the list </li>
+    </ol>
+    
+    <!-- thiss is to crate a table -->
+    <table>
+        <tr>
+            <th>Heading 1</th>
+            <th>Heading 2</th>
+            <th>Heading 3</th>
+        </tr>
+        <tr>
+            <td>H1 - Data Item 1</td>
+            <td>H2 - Data Item 1</td>
+            <td>H3 - Data Item 1</td>
+        </tr>
+        <tr>
+            <td>H1 - Data Item 2</td>
+            <td>H2 - Data Item 2</td>
+            <td>H3 - Data Item 2</td>
+        </tr>
+        <tr>
+            <td>H1 - Data Item 3</td>
+            <td>H2 - Data Item 3</td>
+            <td>H3 - Data Item 3</td>
+        </tr>
+    </table>
+
+    <!-- to add images -->
+
+    <!-- External Image -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/440px-IBM_logo.svg.png" alt="IBM Logo" width="300" height="300"><br>
+     <p>
+        separet img 
+    </p>
+    <!-- Local Images -->
+    <img src="images/IBMlogo.png" alt="IBM Logo" width="300" height="300"> <br>
+    
+    
+    
+    <a href="#">Top of Page</a>
+    <!-- <a href="#top">Top of Page</a>  // this is anothe way to go to the top of a page-->
+    <a href="#section">Link to section</a>
+    <h1 id="section">Section</h1>
+
+    <h2>Insights Submission Form</h2>
+    <form action="/submit-feedback" method="POST">
+        <fieldset>
+            <legend>Your Insights About Thomas J. Watson Are Valued</legend>
+    
+            <!-- Name Field -->
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+    
+            <!-- Email Field -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+    
+            <!-- Comments Field -->
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Share your thoughts about Thomas J. Watson"></textarea><br><br>
+    
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+
+     
+</body>
+</html>
